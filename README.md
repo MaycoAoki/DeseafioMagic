@@ -1,14 +1,3 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-
-## About Laravel
-
 Olá,
 
 Muito obrigado pela oportunidade.
@@ -36,7 +25,7 @@ Exibição
 Alteração
 Exclusão
 
-O sistema tem duas linha de desenvolvimento, uma web e outra usando API. Para esse projeto foi usado MySQL com PHPmyAdmin para o banco de dados, mais pode ser utilizado outros também. É para salienta foi desenvolvido no LInux Ubuntu.
+O sistema tem duas linha de desenvolvimento, uma web e outra usando API. Para esse projeto foi usado MySQL com PHPmyAdmin para o banco de dados relacionado, mas pode ser utilizado outros também. É para salienta foi desenvolvido no LInux Ubuntu.
 
 Esse é o endereço da documentação do Front-And:
 
@@ -68,4 +57,31 @@ php artisan migrate
 
 php artisan serve
 
+________________________________________________________________________
 
+API
+
+No postman você pode criar uma workspace, adicionar coleções com:
+
+GET
+
+Esse caminho e para exibir
+URL ->  http://localhost:8000/api/apiFilme/
+
+POST
+
+Esse caminho e para inserir um novo dado
+URL->http://localhost:8000/api/apiFilme/store
+Nesse caso você deve preencher as campos na seção body
+
+POST
+
+Para alterar os dados
+http://localhost:8000/api/apiFilme/id
+Para esse você deve alterar os dados na seção parâmetros 
+
+
+DELETE
+
+É para deletar
+URL->http://localhost:8000/api/apiFilme/id
